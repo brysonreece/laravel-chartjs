@@ -17,9 +17,11 @@
     ],
     "require": {
       "php": ">=5.6.4",
-      "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.*"
+      "illuminate/support": ">=5.1.*"
     },
-
+    "replace": {
+      "fx3costa/laravelchartjs": "<=2.3.1"
+    },
     "autoload": {
       "psr-4": {
         "brysonreece\\LaravelChartJs\\" : "src/"
