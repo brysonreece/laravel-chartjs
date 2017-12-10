@@ -1,11 +1,15 @@
 {
-    "name": "fx3costa/laravelchartjs",
+    "name": "brysonreece/laravelchartjs",
     "description": "Simple package to facilitate and automate the use of charts in Laravel 5.x using Chartjs v2 library",
     "keywords": [
       "chartjs","laravel5","chart","reports","graphics", "fx3costa"
     ],
     "license": "MIT",
     "authors": [
+        {
+            "name": "Bryson Reece",
+            "email": "brysonreece@ou.edu"
+        },
         {
             "name": "Felix",
             "email": "fx3costa@gmail.com"
@@ -18,7 +22,7 @@
 
     "autoload": {
       "psr-4": {
-        "Fx3costa\\LaravelChartJs\\" : "src/"
+        "brysonreece\\LaravelChartJs\\" : "src/"
       }
     }
 }
