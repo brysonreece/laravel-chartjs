@@ -161,7 +161,7 @@ class Builder
      *
      * @return mixed
      */
-    private function get($key)
+    public function get($key)
     {
         return array_get($this->charts[$this->name], $key);
     }
@@ -172,7 +172,7 @@ class Builder
      *
      * @return $this|Builder
      */
-    private function set($key, $value)
+    public function set($key, $value)
     {
         array_set($this->charts[$this->name], $key, $value);
         return $this;
